@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">  
+    <title> Inicio</title>
+
+
+</head>
+<body>
+    <form action="https://www.google.com/search" method ="get">
+        <input type="text"name="q">
+        <button type="submit">Buscar</button>
+    </form>
+    <br>
+    <br>
+    <br>
+    <h1>Datos</h1>
+    <form action="#">
+        <label for="nom" > Nombre:</label>
+        <input type="text"name="nombre" placeholder="Ingrese su nombre">
+        <br>
+        <label>Apellido:</label>
+        <input type="text"
+        name="nombre"
+        placeholder="ingrese su nombre"
+        disabled>
+        <div>
+
+            
+            <label>email</label>
+            <input type="email" 
+            name="correo" 
+            placeholder="example@.com"
+            maxlength="50"
+            required >
+        </div>
+        <div><label >Edad:</label>
+            <input type="number" 
+            name="edad" 
+            value="18" min="1"
+            max="120">
+        </div>
+       <fieldset>
+        <legend>datos de la u </legend>
+        <label>fecha de matricula</label>
+        <input type="datetime" 
+        name="fecha de matriculaDos">
+        <input type="datetime-local" 
+        name="fecha de matriculatres">
+       </fieldset>
+       <div>
+        <label >foto</label>
+        <input type="file" name = "foto">
+       </div>
+       <div>
+        <label >color favorito</label>
+        <input type="color" name ="color favorito">
+       </div>
+       <div>
+        <label > password</label>
+<input type="password" name ="pwd">
+       </div>
+       <div>
+        <label >clasificacion</label>
+        <label >
+            <input type="radio" name="clasificacion"
+            value ="A">
+            opcion 1
+        </label>
+        <label >
+            <input type="radio" name="clasificacion"
+            value="B" checked>
+            opcion 2
+        </label>
+        <label >
+            <input type="radio" name="clasificacion"
+            value="C">
+            opcion 3
+        </label>
+       </div>
+       <fieldset>
+        <legend>Jobs</legend>
+        <label >
+            <input type="checkbox"
+             name="opt1">
+             opcion1
+        </label>
+        <label >
+            <input type="checkbox"
+             name="opt2">
+             opcion2
+        </label>
+        <label >
+            <input type="checkbox"
+             name="opt3" checked >opcion3
+        </label>
+       </fieldset>
+       <div>
+        <label >Ciudad</label>
+        <select name="ciudad">
+            <option value="1">tunja</option>
+            <option value="2" >sogamoso</option>
+            <option value="3" >duitama</option>
+            <option value="4" >bogota</option>
+            <option value="5" >chiquinquira</option>
+            <option value="6" >villa nueva</option>
+            <option value="7"selected >yopal</option>
+        </select>
+       </div>
+       <div>
+        <label> Observaciones</label>
+        <textarea name="obs" cols="23" rows="10">pepito</textarea>
+       </div>
+       <div>
+        <label >codigo</label>
+        <input type="hidden" name ="cod"value="1234">
+       </div>
+       <div>
+        <button type="submit">enviar</button>
+        <input type="submit" value="enviar">
+       </div>
+    </form>
+</body>
+
+
+
+</html>
